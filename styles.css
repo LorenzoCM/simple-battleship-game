@@ -1,0 +1,139 @@
+body {
+    color: aliceblue;
+  }
+
+.container {
+    font-family: 'Orbitron', sans-serif;
+    color: whitesmoke;
+}
+
+.main-title {
+    font-size: 40px;
+    margin-bottom: -50px;
+}
+
+#board {
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div {
+    width: 45px;
+    border: 0.5px solid #7e7e7e;
+    height: 45px;
+    margin: 1px 1px;
+    background: #70096d;
+    display: flex;
+    color: #70096d;
+    font-size: 75%;
+}
+
+#board2 {
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board2 div {
+    width: 45px;
+    border: 0.5px solid #7e7e7e;
+    height: 45px;
+    margin: 1px 1px;
+    background: #0cb60c;
+    display: flex;
+    color: #838383;
+    font-size: 75%;
+}
+
+.numbersX {
+    display: flex;
+    justify-content: start;
+    font-size: 120%;
+}
+
+.numbersY {
+    margin-top: 15px;
+}
+
+.numberX {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+}
+
+.numberY {
+    font-size: 120%;
+    height: 45px;
+    margin: 5px 7px;
+    display: flex;
+    align-items: center;
+}
+
+#board div:hover {
+    background: #a8a8a8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#board2 div:hover {
+    background: #a8a8a8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.found {
+    background: red !important;
+}
+.missed {
+    background: #a8a8a8 !important;
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+#winUser, #winCpu {
+    color: whitesmoke;
+}
+
+#centeringes1,
+#centeringes2 {
+    padding: 10px;
+}
+
+.border {
+    box-shadow: 0px 0px 5px 2px #ffff00 inset;
+}
+
+.hide {
+    display: none;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+#shoot {
+    margin-right: 5px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.twoBoards {
+    display: flex;
+}
+.player {
+    display: flex;
+    flex-direction: column;
+}
